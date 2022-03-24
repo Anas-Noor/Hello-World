@@ -14,4 +14,8 @@ public class Licience {
                 '}';
     }
 
+    public Licience(String name, int unit) {
+        this.name = name;
+        this.unit = unit;
+    }
 }
