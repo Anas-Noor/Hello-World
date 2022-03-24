@@ -1,7 +1,7 @@
 package com.company;
 
 public class School {
-    String name;
+    private String name;
 
     public String getName() {
         return name;
@@ -20,5 +20,9 @@ public class School {
 
     public School(String name) {
         this.name = name;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
